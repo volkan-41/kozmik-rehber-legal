@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gizlilik Politikası – Kozmik Rehber</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0d0b1e;
+      --surface:  #17123a;
+      --border:   #2d2660;
+      --primary:  #a855f7;
+      --text:     #e8e0f7;
+      --muted:    #8b7faa;
+      --accent:   #7c3aed;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #1a0b3e 0%, #0d0b1e 60%);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px; height: 72px;
+      border-radius: 50%;
+      background: rgba(168,85,247,.15);
+      border: 2px solid rgba(168,85,247,.35);
+      margin-bottom: 16px;
+      font-size: 32px;
+    }
+    header h1 {
+      font-size: clamp(22px, 5vw, 32px);
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 4px 14px;
+      background: rgba(168,85,247,.2);
+      border: 1px solid rgba(168,85,247,.4);
+      border-radius: 999px;
+      font-size: 12px;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    /* ── Layout ── */
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    /* ── Intro card ── */
+    .intro-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 32px;
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    /* ── Section ── */
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+    section h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+    section p, section li {
+      font-size: 14px;
+      color: #c5b8e0;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+    section ul, section ol {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+    section li { margin-bottom: 6px; }
+
+    /* table */
+    .table-wrap { overflow-x: auto; margin-top: 12px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th {
+      background: rgba(168,85,247,.12);
+      color: var(--primary);
+      text-align: left;
+      padding: 10px 12px;
+      font-weight: 700;
+      border-bottom: 1px solid var(--border);
+    }
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(45,38,96,.6);
+      color: #c5b8e0;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+
+    /* highlight box */
+    .highlight {
+      background: rgba(168,85,247,.08);
+      border-left: 3px solid var(--primary);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 16px;
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 32px 20px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+    }
+    footer strong { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🔮</div>
+  <h1>Gizlilik Politikası</h1>
+  <p>Kozmik Rehber – Burç, Fal &amp; Uyumluluk Uygulaması</p>
+  <span class="badge">Son güncelleme: Ağustos 2026</span>
+</header>
+
+<main>
+
+  <div class="intro-card">
+    Kozmik Rehber'i kullanırken hangi verilerin işlendiğini, neden kullanıldığını ve sahip
+    olduğunuz hakları bu sayfada açıklıyoruz. Soru veya talepleriniz için
+    <a href="mailto:volkankrkmz41@gmail.com">volkankrkmz41@gmail.com</a> adresine yazabilirsiniz.
+  </div>
+
+  <!-- 1 -->
+  <section>
+    <h2>1. Veri Sorumlusu ve İletişim</h2>
+    <p>Kozmik Rehber bağımsız bir geliştirici tarafından sunulmaktadır.</p>
+    <div class="highlight">
+      📧 <strong>E-posta:</strong> <a href="mailto:volkankrkmz41@gmail.com">volkankrkmz41@gmail.com</a><br/>
+      Gizlilik, veri silme veya hak talepleriniz için bu adrese yazabilirsiniz.
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section>
+    <h2>2. İşlediğimiz Veri Kategorileri</h2>
+    <p><strong>Cihazda yerel olarak saklanan veriler:</strong></p>
+    <ul>
+      <li>Ad veya kullanıcı adı; doğum tarihi, saati ve yeri; burç tercihi</li>
+      <li>Favoriler, ayarlar, motivasyon ve analiz önbellekleri</li>
+      <li>Günlük kullanım / kredi sayaçları ve bildirim tercihleri</li>
+      <li>Premium durumu ve satın alma ürün kodu (yerel önbellek)</li>
+      <li>Sohbet için rastgele oluşturulan cihaz takma tanımlayıcısı</li>
+    </ul>
+    <p><strong>Yapay zekâ analizi için sağladığınız girdiler (isteğe bağlı):</strong></p>
+    <ul>
+      <li>Yazılı metinler, seçilen veya çekilen fotoğraflar (kahve/el falı)</li>
+      <li>Sesli rüya anlatımı için ses kaydı ve dönüştürülen metin</li>
+      <li>Analiz için gerekli burç/doğum bilgileri</li>
+    </ul>
+    <p><strong>Gerçek zamanlı sohbet verileri:</strong></p>
+    <ul>
+      <li>Kullanıcı adı, burç işareti, mesaj metni, gönderim zamanı</li>
+      <li>Cihaz takma tanımlayıcısı (diğer kullanıcılara gösterilmez)</li>
+    </ul>
+    <p><strong>Güvenlik ve teknik veriler:</strong> İstek sayısı, zaman bilgisi ve hata kayıtları; hız sınırlaması ve güvenlik amacıyla sınırlı olarak işlenir.</p>
+  </section>
+
+  <!-- 3 -->
+  <section>
+    <h2>3. Verileri Hangi Amaçlarla Kullanıyoruz?</h2>
+    <ol>
+      <li>Burç, fal, rüya yorumu, doğum haritası ve uyumluluk özelliklerini sunmak</li>
+      <li>İsteğe bağlı metin, görsel ve ses girdileri için yapay zekâ analizi oluşturmak</li>
+      <li>Sohbet mesajlarını gerçek zamanlı iletmek ve geçmişi göstermek</li>
+      <li>Tercihleri, kredileri, Premium durumunu ve kullanım sınırlarını yönetmek</li>
+      <li>Kötüye kullanımı azaltmak ve teknik sorunları teşhis etmek</li>
+      <li>Reklam göstermek ve reklam kişiselleştirme tercihlerini yönetmek</li>
+      <li>İzin verildiyse seçilen zamanda bildirim göndermek</li>
+      <li>Yasal yükümlülüklere uymak ve hakları korumak</li>
+    </ol>
+    <div class="highlight">🔒 Kişisel verilerinizi satmaz veya kiralamayız.</div>
+  </section>
+
+  <!-- 4 -->
+  <section>
+    <h2>4. Otomatik Sohbet Moderasyonu</h2>
+    <p>Sohbet ortamını daha güvenli tutmak için mesajlar otomatik içerik filtresinden geçirilebilir.
+    Küfür veya argo olarak tespit edilen ifadeler yıldızlarla (***) maskelenebilir.
+    Filtre hatasız değildir; kullanıcılar paylaştıkları içerikten sorumludur.</p>
+  </section>
+
+  <!-- 5 -->
+  <section>
+    <h2>5. Verileri Kimlerle Paylaşırız?</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Sağlayıcı</th>
+            <th>İşlev</th>
+            <th>Paylaşılan Veri</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google Gemini API</strong></td>
+            <td>Yapay zekâ analizi</td>
+            <td>Metin, görsel, ses girdileri</td>
+          </tr>
+          <tr>
+            <td><strong>Supabase</strong></td>
+            <td>Sohbet veritabanı</td>
+            <td>Kullanıcı adı, mesaj, takma tanımlayıcı</td>
+          </tr>
+          <tr>
+            <td><strong>Google AdMob</strong></td>
+            <td>Reklam</td>
+            <td>Reklam kimliği, cihaz/ağ bilgisi</td>
+          </tr>
+          <tr>
+            <td><strong>Google Play / Apple</strong></td>
+            <td>Satın alma &amp; abonelik</td>
+            <td>Mağaza satın alma verileri</td>
+          </tr>
+          <tr>
+            <td><strong>Expo Bildirimleri</strong></td>
+            <td>Push bildirim</td>
+            <td>Bildirim belirteci</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:12px;">Sunucu tarafındaki API erişim bilgileri uygulama paketine dahil edilmez.</p>
+  </section>
+
+  <!-- 6 -->
+  <section>
+    <h2>6. Veri Saklama Politikası</h2>
+    <ul>
+      <li><strong>Yerel veriler:</strong> Siz temizleyene, uygulamayı kaldırana veya veri sıfırlayana kadar yalnızca cihazınızda tutulur.</li>
+      <li><strong>Yapay zekâ girdileri:</strong> Yalnızca isteği işlemek için Gemini API'ye iletilir; sunucularımızda kalıcı olarak saklanmaz.</li>
+      <li><strong>Sohbet verileri:</strong> Supabase'de saklanır. Silme talebinizden itibaren en geç 30 gün içinde kaldırılır.</li>
+      <li><strong>Teknik / güvenlik verileri:</strong> En fazla 90 gün tutulur; sonrasında otomatik silinir.</li>
+      <li><strong>Reklam ve mağaza verileri:</strong> Google, Apple ve AdMob'un kendi politikalarına tabidir.</li>
+    </ul>
+  </section>
+
+  <!-- 7 -->
+  <section>
+    <h2>7. Veri Silme Talebi (Silinme Hakkı)</h2>
+    <p>Kişisel verilerinizin silinmesini talep etme hakkına sahipsiniz:</p>
+    <ol>
+      <li><strong>Talep gönderin:</strong> <a href="mailto:volkankrkmz41@gmail.com">volkankrkmz41@gmail.com</a> adresine "Veri Silme Talebi" konusuyla yazın. Kullanıcı adınızı ve silinmesini istediğiniz veri kapsamını belirtin.</li>
+      <li><strong>Kimlik doğrulama:</strong> Gerekirse ek bilgi istenebilir.</li>
+      <li><strong>İşlem süresi:</strong> Talebiniz 30 takvim günü içinde işleme alınır; tamamlandığında onay gönderilir.</li>
+      <li><strong>Kapsam:</strong> Sunucu tarafındaki sohbet verileri kalıcı olarak silinir. Yerel veriler uygulamayı kaldırarak anında silebilirsiniz.</li>
+    </ol>
+    <div class="highlight">
+      📧 Silme talebi için: <a href="mailto:volkankrkmz41@gmail.com">volkankrkmz41@gmail.com</a>
+    </div>
+  </section>
+
+  <!-- 8 -->
+  <section>
+    <h2>8. Haklarınız</h2>
+    <p>Uygulanabilir mevzuata bağlı olarak; verilerinize erişme, düzeltme, silme, işlemeyi
+    kısıtlama, itiraz etme ve taşınabilirlik talep etme haklarına sahip olabilirsiniz.
+    Türkiye'deki kullanıcılar için <strong>6698 sayılı KVKK</strong> kapsamındaki haklar,
+    AEA'daki kullanıcılar için <strong>GDPR</strong> kapsamındaki haklar saklıdır.</p>
+    <ul>
+      <li>Kamera, mikrofon ve bildirim izinlerini cihaz ayarlarından kaldırabilirsiniz.</li>
+      <li>Reklam kimliğini cihaz ayarlarından sıfırlayabilirsiniz.</li>
+      <li>Aboneliğinizi Google Play veya Apple üzerinden iptal edebilirsiniz.</li>
+      <li>Yerel verileri uygulamayı kaldırarak silebilirsiniz.</li>
+    </ul>
+  </section>
+
+  <!-- 9 -->
+  <section>
+    <h2>9. Uluslararası Veri Aktarımı</h2>
+    <p>Google, Supabase, AdMob ve diğer altyapı sağlayıcıları verileri bulunduğunuz ülke
+    dışındaki sunucularda işleyebilir. Aktarım, yürürlükteki mevzuatın izin verdiği
+    güvenlik mekanizmaları çerçevesinde gerçekleştirilir.</p>
+  </section>
+
+  <!-- 10 -->
+  <section>
+    <h2>10. Çocukların Gizliliği</h2>
+    <p>Uygulama 13 yaşın altındaki çocuklara yönelik değildir. 13 yaşın altındaki bir
+    kişiden veri toplandığını fark ederseniz lütfen bizimle iletişime geçin.</p>
+  </section>
+
+  <!-- 11 -->
+  <section>
+    <h2>11. Güvenlik</h2>
+    <p>Verileri korumak için makul teknik ve idari önlemler alıyoruz: şifreli aktarım,
+    sunucu tarafı erişim kontrolleri ve sınırlı yetkili erişim. Bununla birlikte internet
+    üzerinden mutlak güvenlik garantisi veremeyiz.</p>
+  </section>
+
+  <!-- 12 -->
+  <section>
+    <h2>12. Bu Politikadaki Değişiklikler</h2>
+    <p>Bu politikayı hizmetlerdeki, mevzuattaki veya veri işleme uygulamalarındaki
+    değişiklikleri yansıtmak amacıyla güncelleyebiliriz. Önemli değişiklikler uygulama
+    içinden veya mağaza listelemesinden duyurulur. Güncel tarih bu sayfanın üst kısmında
+    yer alır.</p>
+  </section>
+
+  <!-- 13 -->
+  <section>
+    <h2>13. Bize Ulaşın</h2>
+    <p>Bu Gizlilik Politikası veya verilerinizle ilgili her türlü soru, talep ve silme
+    başvurusu için:</p>
+    <div class="highlight">
+      <strong>Kozmik Rehber</strong><br/>
+      📧 <a href="mailto:volkankrkmz41@gmail.com">volkankrkmz41@gmail.com</a><br/>
+      Veri silme talepleri en geç <strong>30 gün</strong> içinde yanıtlanır.
+    </div>
+    <p style="margin-top:12px; font-size:13px; color: var(--muted);">
+      İlgili gizlilik politikaları:
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a> ·
+      <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase</a> ·
+      <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p><strong>Kozmik Rehber</strong> · Gizlilik Politikası</p>
+  <p style="margin-top:6px;">Son güncelleme: Ağustos 2026 · <a href="mailto:volkankrkmz41@gmail.com">volkankrkmz41@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
